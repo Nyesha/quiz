@@ -24,8 +24,9 @@ body {
 }
 
 #tomImg {
-    border-radius: 50%;
-    width: 50px;
+    border-radius: 90%;
+    width: 65px;
+    height: 90px;
 }
 
 a {
