@@ -8,7 +8,26 @@ $(document).ready(function() {
         var q1Result = $("#question1").val();
         var q2Result = $("#question2").val();
         var q3Result = $("#question3").val();
-        var totalScore;
+        var totalScore = 0;
+        
+        if (q1Result === "Training"){
+        totalScore= totalScore +5; 
+        } else if (q1Result === "Family") {
+        totalScore= totalScore + 7;
+         } else if (q1Result ==="Studying") {
+        totalScore= totalScore + 10;
+         }
+         if (q2Result === ""){
+             totalScore= totalScore+5;
+         } else if (q2Result === "") {
+             
+         }
+         }
+        if(totalScore < 30)
+        $(".result").text("Shoto Todoroki")
+    
     });
+    
+    
 
 });
